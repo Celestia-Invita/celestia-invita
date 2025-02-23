@@ -1,28 +1,58 @@
+/* Fuentes */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: 'Poiret One', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    text-align: center;
 }
 
 header {
-    background-color: #ff99cc;
+    background: #87CEFA;
     color: white;
-    padding: 20px;
+    padding: 1em 0;
 }
 
-h1 {
-    margin: 0;
-}
-
-section {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: white;
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background: #333;
     padding: 10px;
-    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Sección principal */
+.section {
+    padding: 50px 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Títulos */
+h1, h2 {
+    font-family: 'Poiret One', cursive;
+}
+
+/* Estilo adicional para las secciones */
+#inicio h2 {
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+#boda h2 {
+    font-family: 'Delius', cursive;
+}
+
+#xv h2 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+#cumple h2 {
+    font-family: 'Zain', sans-serif;
 }
