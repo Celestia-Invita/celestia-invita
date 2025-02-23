@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitaciones Digitales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Invitaciones Digitales Personalizadas</h1>
+        <p>Crea invitaciones únicas para tus eventos especiales.</p>
+    </header>
+
+    <section>
+        <h2>Ejemplos de Invitaciones</h2>
+        <p>Aquí puedes ver algunas de las invitaciones que he creado.</p>
+        <img src="img/ejemplo1.jpg" alt="Ejemplo de invitación">
+    </section>
+
+    <footer>
+        <p>Contacto: <a href="mailto:tucorreo@email.com">tucorreo@email.com</a></p>
+    </footer>
+</body>
+</html>
