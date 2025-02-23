@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitaciones Digitales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #4A90E2;
+            color: white;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Invitaciones Digitales</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showSection('inicio')">Inicio</a>
+        <a href="#" onclick="showSection('boda')">Bodas</a>
+        <a href="#" onclick="showSection('xv')">XV Años</a>
+        <a href="#" onclick="showSection('cumple')">Cumpleaños</a>
+        <a href="#" onclick="showSection('otras')">Otras</a>
+        <a href="#" onclick="showSection('pagos')">Métodos de Pago</a>
+    </nav>
+    
+    <section id="inicio" class="section">
+        <h2>Bienvenido a nuestras invitaciones digitales</h2>
+        <p>Elige una categoría en el menú para ver ejemplos de invitaciones.</p>
+    </section>
+    <section id="boda" class="section hidden">
+        <h2>Invitaciones para Bodas</h2>
+        <p>Aquí irán ejemplos de invitaciones para bodas.</p>
+    </section>
+    <section id="xv" class="section hidden">
+        <h2>Invitaciones para XV Años</h2>
+        <p>Aquí irán ejemplos de invitaciones para XV años.</p>
+    </section>
+    <section id="cumple" class="section hidden">
+        <h2>Invitaciones para Cumpleaños</h2>
+        <p>Aquí irán ejemplos de invitaciones para cumpleaños.</p>
+    </section>
+    <section id="otras" class="section hidden">
+        <h2>Otras Invitaciones</h2>
+        <p>Aquí irán ejemplos de otros tipos de invitaciones.</p>
+    </section>
+    <section id="pagos" class="section hidden">
+        <h2>Métodos de Pago</h2>
+        <p>Información sobre pagos en Colombia y México.</p>
+    </section>
+    
+    <script>
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(section => {
+                section.classList.add('hidden');
+            });
+            document.getElementById(sectionId).classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
